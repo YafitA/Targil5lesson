@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Reflection;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,7 +17,7 @@ namespace Targil5lesson
     /// </summary>
     public partial class MainWindow : Window
     {
-        //int i;
+        public int i = 0;
         public MainWindow()
         {
             InitializeComponent();
@@ -25,20 +26,23 @@ namespace Targil5lesson
 
         private void ButtonGreenLight_Click(object sender, RoutedEventArgs e)
         {
-            // Car.Margin.GetHashCode();
-            //i = i + 5;
-            Car.Margin = new Thickness(589 , 263, 0 ,0);
-        }
 
-        private void ButtonOrangeLight_Click(object sender, RoutedEventArgs e)
-        {
-
+            i = i + 30;
+            Car.Margin = new Thickness(578 - i, 283, 0, 0);
         }
 
         private void ButtonRedLight_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("BRAKES!");
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Ramzor.Visibility = new VisualTransition("Visible");
+            //Ramzor.Visibility = Visibility.Visible;
+            i = i + 5;
+            Car.Margin = new Thickness(578 - i, 283, 0, 0);
         }
     }
 }
