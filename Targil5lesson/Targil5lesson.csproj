@@ -11,11 +11,13 @@
   <ItemGroup>
     <None Remove="CAR.jfif" />
     <None Remove="RAMZOR.jfif" />
+    <None Remove="tamrur.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="CAR.jfif" />
     <Resource Include="RAMZOR.jfif" />
+    <Resource Include="tamrur.jpg" />
   </ItemGroup>
 
 </Project>

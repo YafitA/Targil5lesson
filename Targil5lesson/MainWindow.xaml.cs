@@ -34,13 +34,14 @@ namespace Targil5lesson
         private void ButtonRedLight_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("BRAKES!");
+            Ramzor.Visibility = Visibility.Hidden;
 
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Ramzor.Visibility = new VisualTransition("Visible");
-            //Ramzor.Visibility = Visibility.Visible;
+            Ramzor.Visibility = Visibility.Visible;
+
             i = i + 5;
             Car.Margin = new Thickness(578 - i, 283, 0, 0);
         }

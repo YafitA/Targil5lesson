@@ -9,7 +9,7 @@
     <Grid>
         <Button x:Name="ButtonRedLight" Content="Stop" HorizontalAlignment="Center" Height="48" Margin="0,10,0,0" VerticalAlignment="Top" Width="122" Background="#FFB41818" Click="ButtonRedLight_Click"/>
         <Button x:Name="ButtonGreenLight" Content="Go!" HorizontalAlignment="Center" Height="48" Margin="0,169,0,0" VerticalAlignment="Top" Width="122" Background="#FF3DC626" Click="ButtonGreenLight_Click"/>
-        <Image x:Name="Ramzor" HorizontalAlignment="Left" Height="150" Margin="57,51,0,0" VerticalAlignment="Top" Width="127" Source="/tamrur.jpg" Visibility="Hidden"/>
+        <Image x:Name="Ramzor" HorizontalAlignment="Left" Height="188" Margin="51,20,0,0" VerticalAlignment="Top" Width="195" Source="/tamrur.jpg" Visibility="Hidden"/>
         <Image x:Name="Car" HorizontalAlignment="Left" Height="132" Margin="578,283,0,0" VerticalAlignment="Top" Width="183" Source="/CAR.jfif"/>
         <Button x:Name="ButtonOrangeLight" Content="Wait" HorizontalAlignment="Center" Margin="0,90,0,0" VerticalAlignment="Top" Height="48" Width="122" RenderTransformOrigin="0.536,0.134" Click="Button_Click" Background="#FFFFA330"/>
 
