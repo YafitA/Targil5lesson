@@ -1,0 +1,17 @@
+﻿<Window x:Class="Targil5lesson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Targil5lesson"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ButtonOrangeLight" Content="Wait" Margin="339,102,339,284" Background="#FFFFAB0E" Click="ButtonOrangeLight_Click" RenderTransformOrigin="0.463,-0.998"/>
+        <Button x:Name="ButtonRedLight" Content="Stop" HorizontalAlignment="Center" Height="48" Margin="0,27,0,0" VerticalAlignment="Top" Width="122" Background="#FFB41818" Click="ButtonRedLight_Click"/>
+        <Button x:Name="ButtonGreenLight" Content="Go!" HorizontalAlignment="Center" Height="48" Margin="0,183,0,0" VerticalAlignment="Top" Width="122" Background="#FF3DC626" Click="ButtonGreenLight_Click"/>
+        <Image x:Name="Ramzor" HorizontalAlignment="Left" Height="150" Margin="57,51,0,0" VerticalAlignment="Top" Width="127" Source="/RAMZOR.jfif"/>
+        <Image x:Name="Car" HorizontalAlignment="Left" Height="132" Margin="578,283,0,0" VerticalAlignment="Top" Width="183" Source="/CAR.jfif"/>
+
+    </Grid>
+</Window>
